@@ -36,3 +36,4 @@ describe('BaseStore', function () {
     });
 });
 //# sourceMappingURL=BaseStore.test.js.map
+//# sourceMappingURL=BaseStore.test.js.map

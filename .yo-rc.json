@@ -5,5 +5,12 @@
       "githubAuthor": "polutz",
       "codecovToken": "96c94c4f-58ab-4329-abd6-eb319a84807e"
     }
+  },
+  "generator-ptz": {
+    "promptValues": {
+      "appname": "ptz-action-domain",
+      "githubAuthor": "polutz",
+      "codecovToken": "7a80ed20-dee8-4343-83a9-8dc25398a34c"
+    }
   }
 }

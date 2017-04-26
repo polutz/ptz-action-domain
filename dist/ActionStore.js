@@ -3,6 +3,7 @@
 Object.defineProperty(exports, "__esModule", {
     value: true
 });
+exports.ActionStore = undefined;
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
@@ -41,7 +42,7 @@ var __awaiter = undefined && undefined.__awaiter || function (thisArg, _argument
     });
 };
 
-var ActionStore = function () {
+var ActionStore = exports.ActionStore = function () {
     function ActionStore() {
         _classCallCheck(this, ActionStore);
 
@@ -96,6 +97,4 @@ var ActionStore = function () {
     return ActionStore;
 }();
 //# sourceMappingURL=ActionStore.js.map
-
-
-exports.default = ActionStore;
+//# sourceMappingURL=ActionStore.js.map

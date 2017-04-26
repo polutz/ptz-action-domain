@@ -1,8 +1,2 @@
-import { ActionExecution, IAction } from './Action';
-import ActionStore from './ActionStore';
-
-export {
-    ActionExecution,
-    ActionStore,
-    IAction
-};
+export { ActionExecution, IAction } from './Action';
+export { IActionStore, ActionStore } from './ActionStore';

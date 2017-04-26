@@ -1,4 +1,4 @@
-import ActionStore, { IActionStore } from './ActionStore';
+import { ActionStore, IActionStore } from './ActionStore';
 
 describe('Actions to replay', () => {
     var store: IActionStore;
@@ -52,7 +52,10 @@ describe('Actions to replay', () => {
 
         store.toDoStore.dispatch({
             actionType: allActions.SAVE_USER,
-            args: user
+            args: {
+                user,
+                authUser
+            }
         });
     });
 });

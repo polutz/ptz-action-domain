@@ -9,7 +9,7 @@ export interface IBaseStore<TAction> {
     typeSubscribers: { [type: string]: Array<ISubscribeFunc<TAction>> };
     subscribeAll(func: ISubscribeFunc<TAction>);
     subscribe(type: string, func: ISubscribeFunc<TAction>);
-    dispatch<TArgs, TReturnData>(action: IAction<any>);
+    dispatch<TArgs>(action: IAction<TArgs>);
 }
 
 export default class BaseStore<TAction> implements IBaseStore<TAction> {

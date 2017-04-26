@@ -46,3 +46,4 @@ var BaseStore = function () {
 
 
 exports.default = BaseStore;
+//# sourceMappingURL=BaseStore.js.map

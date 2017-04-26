@@ -15,3 +15,4 @@ describe('ptz-action-domain', function () {
     });
 });
 //# sourceMappingURL=index.test.js.map
+//# sourceMappingURL=index.test.js.map

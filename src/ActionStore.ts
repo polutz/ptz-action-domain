@@ -13,7 +13,7 @@ export interface IActionStore {
     errorStore: IBaseStore<IActionExecution<any, any>>;
 }
 
-export default class ActionStore implements IActionStore {
+export class ActionStore implements IActionStore {
     toDoStore: IBaseStore<IAction<any>>;
     successStore: IBaseStore<IActionExecution<any, any>>;
     errorStore: IBaseStore<IActionExecution<any, any>>;
